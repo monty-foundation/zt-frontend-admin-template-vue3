@@ -3,7 +3,7 @@
 import { Vue, Options } from 'vue-property-decorator'
 require('./client-manage.scss');
 @Options({})
-export default class clientManage extends Vue {
+export default class extends Vue {
     xxx:any = '1234567890';
     created(){
         console.log('1111111');

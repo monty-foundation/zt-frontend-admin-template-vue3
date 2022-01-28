@@ -1,0 +1,106 @@
+@font-face {
+  font-family: "zt-iconfont";
+  font-weight: normal;
+  font-style: normal;
+  src: url('./iconfont.ttf') format('truetype');
+}
+.zt-iconfont {
+  font-family: "zt-iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.zt-kuaidiguanli1:before {
+  content: "\e660";
+}
+
+.zt-caiwuguanli:before {
+  content: "\e602";
+}
+
+.zt-shouhou2:before {
+  content: "\e649";
+}
+
+.zt-tibao:before {
+  content: "\e6eb";
+}
+
+.zt-huodongguanli:before {
+  content: "\e611";
+}
+
+.zt-dajiaduzaimai:before {
+  content: "\e604";
+}
+
+.zt-dianpurenzheng:before {
+  content: "\e674";
+}
+
+.zt-dingdanguanli:before {
+  content: "\e675";
+}
+
+.zt-zhanghaoguanli:before {
+  content: "\e676";
+}
+
+.zt-youhuiquanguanli:before {
+  content: "\e677";
+}
+
+.zt-shangpinguanli:before {
+  content: "\e678";
+}
+
+.zt-chucuo:before {
+  content: "\e640";
+}
+
+.zt-shenheguanli1:before {
+  content: "\e631";
+}
+
+.zt-yunying1:before {
+  content: "\e607";
+}
+
+.zt-product:before {
+  content: "\e600";
+}
+
+.zt-shezhi:before {
+  content: "\e710";
+}
+
+.zt-xiangshang:before {
+  content: "\e708";
+}
+
+.zt-guanli:before {
+  content: "\e66b";
+}
+
+.zt-fensi:before {
+  content: "\e6de";
+}
+
+.zt-xiangxia:before {
+  content: "\e8f0";
+}
+
+.zt-tianjia:before {
+  content: "\e670";
+  color: #10b481;
+}
+
+.zt-jianshao:before {
+  content: "\e672";
+  color: #ff6875;
+}
+.zt-yuncangERP:before {
+  content: "\e664";
+}

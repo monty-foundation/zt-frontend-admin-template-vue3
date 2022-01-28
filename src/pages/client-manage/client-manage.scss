@@ -1,0 +1,24 @@
+.xy-client-manage{
+    width: 100%;
+    color: red;
+    .xrow-box {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-flex-flow: column;
+        flex-flow: column;
+        height: 100%;
+      }
+      
+      /*横向(水平)弹性盒子*/
+      .xycol-box {
+        width: 100%;
+        display: flex;
+        flex-flow: row;
+      }
+      
+      .xyflex {
+        flex: 1;
+      }
+}

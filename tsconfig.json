@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+      "experimentalDecorators": true, //开启装饰器@ （修饰器本质就是编译时执行的函数）
+      "strict": false, //启用所有严格类型检查选项
+      // 指定生成哪个模块系统代码
+      "module": "esnext",
+      // "module":"es2015",
+      "moduleResolution": "node",
+      "target": "es5", //编译目标平台
+      "allowJs": true, //允许编译javascript文件
+      "noImplicitAny": false, // 在表达式和声明上有隐含的'any'类型时报错。
+      "allowSyntheticDefaultImports": true,
+      "lib": ["es5", "es2015", "es2016", "es2017","es2018","es2019","dom","es2020"],
+      "baseUrl": ".",
+      "paths": {
+        "@/*": ["*", "src/*"]
+      }
+    },
+    "include": ["./**/*.ts", "src/router/index.ts"]
+}
